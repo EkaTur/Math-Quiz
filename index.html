@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <button id="btnStart">Push to start</button>
+    <div class="timeContainer">
+        <p id="parTime">Your time:<span id="timeLeft"></span></p>
+    </div>
+    <form>
+        <div class="container">
+            <div class="question">
+                <label>Question 1. How much is 50 x 4?</label>
+                <input type="radio" name="questionOne">210
+                <input type="radio" name="questionOne">150
+                <input type="radio" name="questionOne" id="answerOne">200
+                <input type="radio" name="questionOne">100
+            </div>
+            <div class="question">
+                <label>Question 2. How much is 35 x 8?</label>
+                <input type="radio" name="questionTwo">140
+                <input type="radio" name="questionTwo">250
+                <input type="radio" name="questionTwo">200
+                <input type="radio" name="questionTwo" id="answerTwo">280
+            </div>
+            <div class="question">
+                <label>Question 3. How much is 135 ÷ 15?</label>
+                <input type="radio" name="questionThree">13
+                <input type="radio" name="questionThree">15
+                <input type="radio" name="questionThree" id="answerThree">9
+                <input type="radio" name="questionThree">10
+            </div>
+            <div class="question">
+                <label>Question 4. How much is 241 + 39?</label>
+                <input type="radio" name="questionFour" id="answerFour">280
+                <input type="radio" name="questionFour">290
+                <input type="radio" name="questionFour">281
+                <input type="radio" name="questionFour">285
+            </div>
+            <div class="question">
+                <label>Question 5. How much is 349 - 58?</label>
+                <input type="radio" name="questionFive">290
+                <input type="radio" name="questionFive" id="answerFive">291
+                <input type="radio" name="questionFive">270
+                <input type="radio" name="questionFive">286
+            </div>
+        </div>
+    </form>
+    <div class="finishContainer">
+        <button id="btnFinish">Push to finish</button>
+        <p id="parScore">Your score is: <span id="score"></span></p>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

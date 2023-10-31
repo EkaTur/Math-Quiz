@@ -1,0 +1,135 @@
+body {
+    background-image: url(photo.jpg);
+    font-family: 'Roboto Mono', monospace;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #af9ce2;
+}
+
+form {
+    background-color: rgb(247, 217, 208, 0.7);
+    width: 600px;
+    overflow: hidden;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: none;
+    z-index: 10;
+}
+
+label {
+    font-weight: bold;
+    font-size: 16px;
+    align-items: center;
+}
+
+#btnFinish, #btnStart, input:hover {
+    cursor: pointer;
+}
+
+.question {
+    padding: 30px;
+    width: 100%;
+    align-self: center;
+}
+
+#btnStart {
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #af9ce2;
+    z-index: 10;
+}
+
+#btnFinish {
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #af9ce2;
+    width: 100%;
+    justify-self: center;
+}
+
+.timeContainer {
+    align-self: center;
+}
+
+#parTime {
+    font-weight: bold;
+}
+
+.endTime {
+    font-size: 40px;
+    font-weight: bolder;
+    color: red;
+}
+
+.finishContainer {
+    display: flex;
+    display: none;
+    z-index: 10;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    -webkit-user-select: none;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
+
+@media all and (max-width: 500px) {
+    form {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .question {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+}
