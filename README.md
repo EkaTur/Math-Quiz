@@ -1,6 +1,6 @@
 # Interactive Quiz and Timer
 
-![Screenshot](screen.PNG)
+![Screenshot](Assets/screen.PNG)
 Welcome to the Interactive Quiz and Timer! This web application combines a countdown timer and an interactive quiz. Use it to challenge yourself and stay focused.
 
 ## Features
