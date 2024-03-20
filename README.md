@@ -3,6 +3,10 @@
 ![Screenshot](Assets/screen.PNG)
 Welcome to the Interactive Quiz and Timer! This web application combines a countdown timer and an interactive quiz. Use it to challenge yourself and stay focused.
 
+## Live Demo
+
+You can check out the live version of this website [here](https://quizmath-app.netlify.app/).
+
 ## Features
 
 - **Countdown Timer:** Set the timer to a specific duration and start it by clicking "Push to start."
